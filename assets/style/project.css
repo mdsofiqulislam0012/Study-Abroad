@@ -1,0 +1,98 @@
+/* @font-face {
+  font-family: oswald;
+  src: url(../font/Oswald-VariableFont_wght.ttf);
+}
+
+h1{
+    font-family: oswald;
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul,
+li,
+ol,
+p,
+span {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* font family
+ font-family: "Poppins", sans-serif;
+ font-family: oswald;
+*/
+
+/* start top nav design */
+:root {
+    --primary-blue-color: #01208E;
+    --primary-orange-color: #FE7400;
+    --similar-halka-blue: #021146;
+    --primary-halka-orange: #FD8D2F;
+    --primary-pior-white: #FFFFFF;
+    --primary-halka-black: #444444;
+    --primary-halka-bg-color: #FFFDFD;
+}
+
+.top-nav {
+    background-color: var(--primary-blue-color);
+    color: var(--primary-pior-white);
+    width: 100%;
+    height: 44px;
+}
+
+.top-nav-contact a {
+    color: var(--primary-pior-white);
+    background-color: var(--primary-orange-color);
+    padding: 10px;
+}
+
+.top-nav-contact a:hover {
+    background-color: var(--primary-halka-orange);
+}
+
+/* end top nav design */
+
+/* DOWN NAV DESIGN START */
+.container-fluid {
+    width: 249;
+    height: 38;
+    top: 84px;
+    left: 375px;
+
+}
+
+.down-nav {
+    background-color: var(--primary-halka-bg-color);
+    width: 100%;
+    height: 111;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item a {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    /* color: var(--primary-pior-white); */
+
+}
+.nav-link{
+    color: inherit!important;
+}
+.nav-item a:hover{
+    color: var(--primary-orange-color)!important;
+}
+/* DOWN NAV DESIGN END */
