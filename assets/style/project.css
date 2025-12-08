@@ -466,7 +466,6 @@ span {
     background: linear-gradient(90deg, #FF851E 3.55%, #FFAC66 95.48%);
     font-size: 16px;
     font-family: "poppins", sans-serif;
-    font-weight: 500px;
     border-radius: 3px;
     border: none;
 }
@@ -536,7 +535,7 @@ span {
 
 .small_card {
     margin-left: -90px;
-    
+
 }
 
 .country-row {
@@ -553,3 +552,145 @@ span {
 }
 
 /* ONLINE CONSULTATION PART END */
+
+/* WHAT STUDENT SAYS PART START */
+.review-card-main {
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    box-shadow: 0px 14px 74px 0px #0000000F;
+    padding: 36px;
+    border-radius: 5px;
+}
+
+#what-student-says {
+    margin-top: 52px;
+}
+
+.student-says-heading h5 {
+    font-size: 26px;
+    font-weight: 400px;
+    font-family: "poppins", sans-serif;
+    color: var(--primary-orange-color);
+}
+
+.student-says-heading h3 {
+    font-size: 36px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500px;
+    color: var(--primary-blue-color);
+}
+
+.review-image img {
+    width: 70px;
+    height: 70px;
+    border-width: 5px;
+    box-shadow: 0px 14px 24px 0px #00000026;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.student-sayas h5 {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+}
+
+.student-sayas p {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    margin-bottom: 11px;
+    color: #757575;
+}
+
+.student-sayas ul li {
+    margin-bottom: 50px;
+    color: var(--primary-orange-color);
+}
+
+/* WHAT STUDENT SAYS PART END */
+
+/* our resent blog part start */
+.blog-heading h4 {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: var(--primary-halka-orange);
+    margin-top: 50px;
+}
+
+.blog-heading h3 {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: var(--primary-blue-color);
+}
+
+.review-main-card {
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.review-main-card p {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    color: #757575;
+    margin-bottom: 2px;
+}
+
+.review-main-card h5 {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    color: #222222;
+    margin-bottom: 16px;
+}
+
+.review-main-card .card-text {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    color: #757575;
+    margin-bottom: 16px;
+}
+
+.review-main-card a {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    color: var(--primary-halka-orange);
+}
+
+.recent-blog {
+    margin-left: 55px;
+}
+
+.review-submit {
+        width: 244px;
+        height: 61px;
+        background: linear-gradient(90deg, #FF851E 3.55%, #FFAC66 95.48%);
+        font-size: 16px;
+        font-family: "poppins", sans-serif;
+        border-radius: 3px;
+        border: none;
+        margin-top: 30px;
+    }
+
+#our-resent-blog {
+    background: #EFF3FF;
+    padding: 15px;
+    margin-top: 100px;
+}
+
+/* our resent blog part end */
