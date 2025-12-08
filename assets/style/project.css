@@ -316,40 +316,240 @@ span {
 /* MAIN SECTION ER CONSULTING PART DESIGN END */
 
 /* MAIN SECTION ER STUDY ABROAD PART DESIGN START */
-#study-abroad{
+#study-abroad {
     background-color: #EFF3FF;
 }
-.study-abroad-content{
+
+.abroad-image img {
+    margin-bottom: 148px;
+}
+
+.study-abroad-content {
     width: 570px;
     height: 503px;
 }
-.study-abroad-content h3{
+
+.study-abroad-content h3 {
     font-size: 26px;
     font-weight: 400px;
     font-family: "poppins", sans-serif;
     color: #FE7400;
     margin-bottom: 15px;
 }
-.study-abroad-content h4{
+
+.study-abroad-content h4 {
     font-size: 36px;
     font-weight: 500px;
     font-family: "poppins", sans-serif;
     color: #01208E;
     margin-bottom: 5px;
 }
-.study-abroad-content h6{
+
+.study-abroad-content h6 {
     font-size: 30px;
     font-weight: 500px;
     font-family: "poppins", sans-serif;
     color: #444444;
     margin-bottom: 45px;
 }
-.study-abroad-content p{
+
+.study-abroad-content p {
     font-size: 15px;
     font-weight: 300px;
     font-family: "poppins", sans-serif;
     color: #444444;
 }
 
-
 /* MAIN SECTION ER STUDY ABROAD PART DESIGN END */
+
+/* CHOOSE YOUR STUDY DESTINATION PART START*/
+#study-destination {
+    margin-top: 80px;
+}
+
+.head {
+    font-size: 26px;
+    font-weight: 400px;
+    font-family: "poppins", sans-serif;
+    color: #FE7400;
+}
+
+.destination-seconde-head {
+    font-size: 36px;
+    font-weight: 500px;
+    font-family: "poppins", sans-serif;
+    color: #01208E;
+}
+
+.style-card {
+    width: 270px;
+    height: 376px;
+    background: #F9F9F9;
+    border-radius: 10px;
+    margin-top: 58px;
+    margin-bottom: 50px;
+}
+
+.destination-btn {
+    color: var(--primary-orange-color);
+}
+
+/* CHOOSE YOUR STUDY DESTINATION PART END */
+
+/* ONLINE CONSULTATION PART START */
+#online-consultation {
+    background-color: #EFF3FF;
+    padding: 30px;
+}
+
+.information-form {
+    width: 370px;
+    height: 796px;
+    background: #FFFFFF;
+    box-shadow: 0px 44px 64px 0px #00000021;
+    backdrop-filter: blur(74px);
+    border-radius: 5px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.information-form h5 {
+    color: var(--primary-orange-color);
+    margin-bottom: 16px;
+    font-size: 26px;
+    font-weight: 400px;
+    font-family: "poppins", sans-serif;
+}
+
+.information-form h4 {
+    color: #01208E;
+    font-size: 30px;
+    font-weight: 400px;
+    font-family: "poppins", sans-serif;
+    margin-bottom: 52px;
+    width: 299px;
+}
+
+.information-form input {
+    width: 310px;
+    height: 50px;
+    margin: auto;
+}
+
+#online-consultation form input::placeholder {
+    font: 14px;
+    font-weight: 300px;
+    font-family: "poppins", sans-serif;
+}
+
+.area-box .text-area {
+    width: 310px;
+    height: 190px;
+    margin: auto;
+}
+
+.select-area select {
+    width: 309px;
+    height: 48px;
+    border-radius: 5px;
+    margin-bottom: 17px;
+}
+
+.submit-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.submit-request {
+    width: 310px;
+    height: 64px;
+    background: linear-gradient(90deg, #FF851E 3.55%, #FFAC66 95.48%);
+    font-size: 16px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500px;
+    border-radius: 3px;
+    border: none;
+}
+
+/* right site */
+.choose-abroad-main {
+    margin: 83px 0;
+}
+
+.online-consultation-content h1 {
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 36px;
+    color: var(--primary-blue-color);
+    margin-bottom: 25px;
+}
+
+.online-consultation-content p {
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 16px;
+    margin-bottom: 59px;
+
+}
+
+.small-card-main {
+    background: #FFFFFF4D;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 34px 54px 0px #01208E1A;
+    backdrop-filter: blur(124px);
+    padding: 20px;
+    border-radius: 5px;
+    width: 287px;
+    height: 111px;
+    text-align: center;
+}
+
+.small-card-image {
+    background: linear-gradient(180deg, #FF8014 0%, #FFA152 100%);
+    border: 1px solid #FF8C2C;
+    backdrop-filter: blur(84px);
+    box-shadow: 0px 24px 44px 0px #FF5C004A;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.small-card-text h1 {
+    font-size: 30px;
+    font-family: oswald;
+    font-weight: 800px;
+    color: var(--primary-blue-color);
+}
+
+.small-card-text h5 {
+    font-size: 16px;
+    font-weight: 300px;
+    font-family: "poppins", sans-serif;
+    color: #878787;
+}
+
+.small_card {
+    margin-left: -90px;
+    
+}
+
+.country-row {
+    margin-top: 55px;
+    align-items: center;
+}
+
+.country-row h3 {
+    font-size: 24px;
+    font-weight: 400px;
+    font-family: "poppins", sans-serif;
+    color: var(--primary-blue-color);
+    margin-bottom: 25px;
+}
+
+/* ONLINE CONSULTATION PART END */
