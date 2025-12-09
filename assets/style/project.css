@@ -382,8 +382,8 @@ span {
 }
 
 .style-card {
-    width: 270px;
-    height: 376px;
+    width: 241px;
+    height: 361px;
     background: #F9F9F9;
     border-radius: 10px;
     margin-top: 58px;
@@ -404,7 +404,7 @@ span {
 
 .information-form {
     width: 370px;
-    height: 796px;
+    height: 774px;
     background: #FFFFFF;
     box-shadow: 0px 44px 64px 0px #00000021;
     backdrop-filter: blur(74px);
@@ -434,9 +434,16 @@ span {
     width: 310px;
     height: 50px;
     margin: auto;
+    border: none;
 }
 
-#online-consultation form input::placeholder {
+#online-consultation .information-form input::placeholder {
+    font: 14px;
+    font-weight: 300px;
+    font-family: "poppins", sans-serif;
+}
+
+#online-consultation .information-form::selection {
     font: 14px;
     font-weight: 300px;
     font-family: "poppins", sans-serif;
@@ -444,8 +451,9 @@ span {
 
 .area-box .text-area {
     width: 310px;
-    height: 190px;
+    height: 187px;
     margin: auto;
+    border: none;
 }
 
 .select-area select {
@@ -453,6 +461,7 @@ span {
     height: 48px;
     border-radius: 5px;
     margin-bottom: 17px;
+    border: none;
 }
 
 .submit-btn {
@@ -471,6 +480,10 @@ span {
 }
 
 /* right site */
+.small-card-main-row {
+    gap: 29px;
+}
+
 .choose-abroad-main {
     margin: 83px 0;
 }
@@ -482,6 +495,7 @@ span {
     font-size: 36px;
     color: var(--primary-blue-color);
     margin-bottom: 25px;
+    margin-left: 32px;
 }
 
 .online-consultation-content p {
@@ -490,6 +504,7 @@ span {
     font-style: Light;
     font-size: 16px;
     margin-bottom: 59px;
+    margin-left: 32px;
 
 }
 
@@ -541,6 +556,7 @@ span {
 .country-row {
     margin-top: 55px;
     align-items: center;
+    margin-left: 5px;
 }
 
 .country-row h3 {
@@ -549,11 +565,16 @@ span {
     font-family: "poppins", sans-serif;
     color: var(--primary-blue-color);
     margin-bottom: 25px;
+    margin-left: 14px;
 }
 
 /* ONLINE CONSULTATION PART END */
 
 /* WHAT STUDENT SAYS PART START */
+.review-main-row {
+    width: 1130px;
+}
+
 .review-card-main {
     background: #FFFFFF;
     border: 1px solid #EDEDED;
@@ -610,6 +631,10 @@ span {
     color: var(--primary-orange-color);
 }
 
+.student-sayas {
+    margin-left: 21px;
+}
+
 /* WHAT STUDENT SAYS PART END */
 
 /* our resent blog part start */
@@ -635,6 +660,8 @@ span {
 .review-main-card {
     margin-top: 60px;
     padding: 20px;
+    width: 370px;
+    height: 514px;
 }
 
 .review-main-card p {
@@ -677,15 +704,16 @@ span {
 }
 
 .review-submit {
-        width: 244px;
-        height: 61px;
-        background: linear-gradient(90deg, #FF851E 3.55%, #FFAC66 95.48%);
-        font-size: 16px;
-        font-family: "poppins", sans-serif;
-        border-radius: 3px;
-        border: none;
-        margin-top: 30px;
-    }
+    width: 244px;
+    height: 61px;
+    background: linear-gradient(90deg, #FF851E 3.55%, #FFAC66 95.48%);
+    font-size: 16px;
+    font-family: "poppins", sans-serif;
+    border-radius: 3px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
 
 #our-resent-blog {
     background: #EFF3FF;
@@ -694,3 +722,146 @@ span {
 }
 
 /* our resent blog part end */
+
+/* footer section design start */
+#footer-main-section {
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.contact-detail h5 {
+    /* margin-bottom: 56px; */
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    color: #222222;
+    font-style: Medium;
+    font-size: 15px;
+}
+
+.footer-main {
+    padding: 96px;
+}
+
+.sigle-contact {
+    margin-top: 7px;
+}
+
+.common-heading h5 {
+    font-size: 20px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    color: #222222;
+    margin-bottom: 56px;
+
+}
+
+.footer-icon {
+    padding: 14px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--primary-orange-color);
+    color: var(--primary-halka-bg-color);
+}
+
+.some-more-contact p {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    color: #222222;
+    margin-top: 20px;
+}
+
+.facebook {
+    padding: 14px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--primary-orange-color);
+    color: var(--primary-halka-bg-color);
+    padding: 20px;
+    margin-top: 26px;
+}
+
+/* study abroad style start */
+.study-abroad-country-list p {
+    margin-bottom: 14px;
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #444444;
+
+}
+
+.study-abroad-heading h5 {
+    font-size: 20px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    color: #222222;
+    margin-bottom: 56px;
+}
+
+.Service-list p {
+    margin-bottom: 14px;
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 16px;
+    color: #444444;
+}
+
+.our-services h5 {
+    font-size: 20px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    color: #222222;
+    margin-bottom: 56px;
+}
+
+.quick-link-list p {
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 16px;
+    color: #444444;
+    margin-bottom: 14px;
+
+}
+
+.quick-links h5 {
+    font-size: 20px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    color: #222222;
+    margin-bottom: 56px;
+}
+
+/* final footer start */
+#final-footer {
+    background-color: var(--primary-halka-black);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#final-footer p {
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/* final footer end */
+
+/* study abroad style  end*/
+
+/* footer section design end */
