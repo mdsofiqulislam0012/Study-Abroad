@@ -320,13 +320,9 @@ span {
     background-color: #EFF3FF;
 }
 
-.abroad-image img {
-    margin-bottom: 148px;
-}
-
 .study-abroad-content {
-    width: 570px;
-    height: 503px;
+    width: 586px;
+    height: 343px;
 }
 
 .study-abroad-content h3 {
@@ -845,6 +841,117 @@ span {
     margin-bottom: 56px;
 }
 
+
+/* next page study in usa start design */
+#next-page-study-in-usa {
+    height: 200px;
+    margin-top: 20px;
+    background-color: var(--primary-blue-color);
+    /* padding: 76px; */
+}
+
+.study-in-usa-text h1 {
+    color: var(--primary-halka-bg-color);
+    margin-top: 70px;
+    margin-left: 150px;
+    text-transform: uppercase;
+}
+
+/* next page study in usa end design */
+/* white space style start */
+.white-section {
+    background-color: #d1cece;
+}
+
+.text-home-country-usa p {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    color: #444444;
+}
+
+/* white space style end */
+
+/* Study in usa full country list design start */
+#study-in-usa-more-details {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.all-country-list-in-one-fram li i {
+    transform: rotate(90deg);
+    margin-left: 10px 0;
+}
+/* .all-country-list-in-one-fram li{
+    padding: 0 5px;
+} */
+
+.country-main {
+    padding: 10px;
+    background-color: #01208E;
+    color: var(--primary-halka-bg-color);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.all-country-list-in-one-fram .country-main p {
+    margin-left: 20px;
+}
+
+.all-country-list-in-one-fram li a {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    color: var(--primary-halka-black);
+}
+
+.all-country-list-in-one-fram{
+    border: 1px solid var(--primary-halka-black);
+}
+hr {
+    margin: 0;
+    padding: 11px;
+}
+
+.all-country-list-in-one-fram li a:hover {
+    color: #0075FF;
+}
+
+/* right site design start */
+.all-study-country-list-big-card-content h1 {
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 26px;
+    color: #222222;
+    margin-top: 36px;
+    margin-bottom: 15px;
+}
+
+.all-study-country-list-big-card-content p {
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 16px;
+    line-height: 25px;
+    color: #444444;
+}
+
+.all-study-country-list-big-card-content h6 {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
+
+/* right site design end */
+
+/* Study in usa full country list design end */
 /* final footer start */
 #final-footer {
     background-color: var(--primary-halka-black);
