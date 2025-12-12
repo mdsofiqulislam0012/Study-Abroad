@@ -1,0 +1,652 @@
+
+@media (min-width: 320px) and (max-width: 575px) {
+    /* top navabr */
+    .btn {
+    height: 37px;
+    border-radius: 3px;
+    border: 1px solid var(--primary-orange-color);
+    box-shadow: 0px 14px 24px 0px #00000030;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 112px;
+}
+    /* top navabr */
+    /* service card */
+    .service-card-main {
+    background: #FFFFFF1A;
+    border: 1px solid #E5E4E4;
+    box-shadow: 0px 24px 34px 0px #0000000A;
+    backdrop-filter: blur(74px);
+    padding: 5px;
+    border-radius: 5px;
+}
+.service-image6 {
+    background: linear-gradient(180deg, rgba(114, 114, 114, 0.9) 0%, rgba(4, 4, 4, 0.9) 100%);
+    border: 1px solid #757575;
+    box-shadow: 0px 24px 44px 0px #3A3A394A;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.service-image5 {
+    background: linear-gradient(180deg, rgba(114, 114, 114, 0.9) 0%, rgba(4, 4, 4, 0.9) 100%);
+    border: 1px solid #757575;
+    box-shadow: 0px 24px 44px 0px #3A3A394A;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.service-image4 {
+    background: linear-gradient(180deg, rgba(114, 114, 114, 0.9) 0%, rgba(4, 4, 4, 0.9) 100%);
+    border: 1px solid #757575;
+    box-shadow: 0px 24px 44px 0px #3A3A394A;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.service-image3 {
+    background: linear-gradient(180deg, rgba(114, 114, 114, 0.9) 0%, rgba(4, 4, 4, 0.9) 100%);
+    border: 1px solid #757575;
+    box-shadow: 0px 24px 44px 0px #3A3A394A;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.service-image2 {
+    background: linear-gradient(180deg, rgba(114, 114, 114, 0.9) 0%, rgba(4, 4, 4, 0.9) 100%);
+    border: 1px solid #757575;
+    box-shadow: 0px 24px 44px 0px #3A3A394A;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.service-image {
+    background: linear-gradient(180deg, rgba(114, 114, 114, 0.9) 0%, rgba(4, 4, 4, 0.9) 100%);
+    border: 1px solid #757575;
+    box-shadow: 0px 24px 44px 0px #3A3A394A;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.card-text h5 {
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: "poppins", sans-serif;
+    color: var(--primary-blue-color);
+    text-align: center;
+}
+.card-text p {
+    font-size: 12px;
+    font-weight: 300px;
+    font-family: "poppins", sans-serif;
+    color: #828282;
+    text-align: center;
+}
+.service-card-handler{
+    display: flex;
+    justify-content: center;
+}
+/* service card end */
+
+/* banner section */
+.question-box {
+    height: 63px;
+    border-radius: 7px;
+    background-color: var(--primary-pior-white);
+    border: 1px solid #D8D8D8;
+    box-shadow: 0px 24px 84px 0px #0000001A;
+    backdrop-filter: blur(94px);
+    position: absolute;
+    width: 87%;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding: 17px;
+}
+.question-box .question h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    display: none;
+}
+.box-btn {
+    height: 36px;
+    border-radius: 3px;
+    box-shadow: 0px 14px 24px 0px #00000030;
+    background-color: var(--primary-orange-color);
+    padding: 5px;
+    width: 169px;
+}
+.question p{
+    display: none;
+}
+.box-btn {
+    margin-top: -4px;
+    height: 36px;
+    border-radius: 3px;
+    box-shadow: 0px 14px 24px 0px #00000030;
+    background-color: var(--primary-orange-color);
+    padding: 5px;
+    width: 169px;
+    margin-left: 25px;
+}
+#banner {
+    background: url("/assets/image/banner.jpg");
+    padding: 8px 0 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.card-heading h1{
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500px;
+    margin-top: 69px;
+    text-align: center;
+    color: var(--primary-blue-color);
+}
+.banner-heading h1 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-top: 2px;
+}
+.banner-heading p {
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: black;
+}
+.top-nav {
+    background-color: var(--primary-blue-color);
+    color: var(--primary-pior-white);
+    width: 100%;
+    display: none;
+    height: 44px;
+}
+.top-nav-contact a {
+    color: var(--primary-pior-white);
+    background-color: var(--primary-orange-color);
+    padding: 12px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    display: none;
+}
+.navbar-brand img{
+    width: 164px;
+}
+
+/* banner section */
+    .abroad-image img {
+    width: 283px;
+    height: 316px;
+}
+.study-abroad-content {
+    width: 309px;
+    height: 769px;
+}
+.study-abroad-content {
+    width: 309px;
+    height: 311px;
+}
+.study-abroad-content h3 {
+    font-size: 22px;
+    font-weight: 400px;
+    font-family: "poppins", sans-serif;
+    color: #FE7400;
+    margin-bottom: 3px;
+    text-align: center;
+}
+.study-abroad-content h4 {
+    font-size: 25px;
+    font-weight: 500px;
+    font-family: "poppins", sans-serif;
+    color: #01208E;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.study-abroad-content h6 {
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: "poppins", sans-serif;
+    color: #444444;
+    margin-bottom: -9px;
+    text-align: center;
+    display: none;
+}
+.study-abroad-content p {
+    font-size: 11px;
+    font-weight: 300px;
+    font-family: "poppins", sans-serif;
+    color: #444444;
+    text-align: center;
+    padding: 15px;
+}
+.style-card {
+    width: 241px;
+    height: 361px;
+    background: #F9F9F9;
+    border-radius: 10px;
+    margin-top: -6px;
+    margin-bottom: 31px;
+    justify-content: center;
+    margin-left: 28px;
+}
+.destination-seconde-head {
+    font-size: 32px;
+    font-weight: 500px;
+    font-family: "poppins", sans-serif;
+    color: #01208E;
+    margin-bottom: 27px;
+}
+.head {
+    font-size: 26px;
+    font-weight: 400px;
+    font-family: "poppins", sans-serif;
+    color: #FE7400;
+    margin-bottom: 5px;
+}
+
+.information-form {
+    width: 263px;
+    height: 630px;
+    background: #FFFFFF;
+    box-shadow: 0px 44px 64px 0px #00000021;
+    backdrop-filter: blur(74px);
+    border-radius: 5px;
+    justify-content: center;
+    padding: 0px;
+}
+.information-form h5 {
+    color: var(--primary-orange-color);
+    margin-bottom: 14px;
+    font-size: 22px;
+    font-weight: 400px;
+    font-family: "poppins", sans-serif;
+}
+.information-form h4 {
+    color: #01208E;
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: "poppins", sans-serif;
+    margin-bottom: 11px;
+    width: 274px;
+    display: flex;
+    justify-content: center;
+}
+.submit-request {
+    width: 241px;
+    height: 52px;
+    background: linear-gradient(90deg, #FF851E 3.55%, #FFAC66 95.48%);
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
+    border-radius: 3px;
+    border: none;
+}
+.area-box .text-area {
+    width: 263px;
+    height: 150px;
+    margin: auto;
+    border: none;
+}
+.online-consultation-content h1 {
+    font-family: "poppins", sans-serif;
+    font-weight: 800px;
+    font-style: Medium;
+    font-size: 20px;
+    color: var(--primary-blue-color);
+    margin-bottom: 12px;
+    margin-left: 0px;
+}
+#online-consultation {
+    background-color: #EFF3FF;
+    padding: 0px;
+}
+.information-form input {
+    width: 263px;
+    height: 50px;
+    margin: auto;
+    border: none;
+}
+.select-area select {
+    width: 263px;
+    height: 44px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    border: none;
+}
+.online-consultation-content p {
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 16px;
+    margin-bottom: 22px;
+    margin-left: 0px;
+}
+.small-card-main {
+    background: #FFFFFF4D;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(124px);
+    padding: 0px;
+    border-radius: 5px;
+    width: 287px;
+    height: 72px;
+    text-align: center;
+}
+.small_card {
+    margin-left: 0px;
+}
+.small-card-text h1 {
+    margin-left: 110px;
+    font-size: 28px;
+    font-family: oswald;
+    font-weight: 800px;
+    color: var(--primary-blue-color);
+}
+.small-card-text h5 {
+    margin-left: 98px;
+    font-size: 16px;
+    font-weight: 300px;
+    font-family: "poppins", sans-serif;
+    color: #878787;
+}
+.country-row h3 {
+    font-size: 23px;
+    font-weight: 400px;
+    font-family: "poppins", sans-serif;
+    color: var(--primary-blue-color);
+    margin-bottom: 0px;
+    margin-left: 12px;
+    text-align: center;
+}
+.country-flag{
+    margin-top: 50px;
+}
+.student-says-heading h3 {
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500px;
+    color: var(--primary-blue-color);
+}
+.review-card-main {
+    width: 293px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.review-image{
+    width: 293px;
+    display: flex;
+    justify-content: center;
+}
+.student-sayas h5 {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    text-align: center;
+    width: 256px;
+    margin-top: 10px;
+}
+.student-sayas p {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    margin-bottom: 11px;
+    color: #757575;
+    width: 256px;
+    text-align: center;
+}
+.font-awasome-icon-list{
+    display: flex!important;
+    width: 256px;
+    height: 38px;
+    justify-content: center;
+}
+.review-card-description p {
+    width: 293px;
+    text-align: center;
+}
+
+.review-image img {
+    width: 61px;
+    height: 61px;
+}
+.box-image img {
+    /* margin-top: 20px; */
+    width: 227px;
+    height: 163px;
+    margin-left: -79px;
+    margin-top: 20px;
+}
+.small-card-text{
+    margin-top: -61px;
+}
+
+/* READ OUR RECENT BLOG */
+.blog-heading h4 {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--primary-halka-orange);
+    margin-top: 14px;
+}
+.blog-heading h3 {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--primary-blue-color);
+}
+
+.review-main-card {
+    margin-top: 60px;
+    padding: 18px;
+    width: 321px;
+    height: 401px;
+}
+.recent-blog {
+    margin-left: -37px;
+}
+.submit-btn {
+    text-align: center;
+    margin-top: 69px;
+}
+/* READ OUR RECENT BLOG */
+#next-page-study-in-usa {
+    width: 320px;
+    height: 108px;
+    background-color: var(--primary-blue-color);
+}
+
+/* next page in usa */
+
+
+.text-home-country-usa {
+    width: 299px;
+    height: 25px;
+    margin-top: 6px;
+}
+.text-home-country-usa p{
+    text-align: center;
+}
+.all-study-country-list-big-card img{
+    margin-top: 22px;
+    width: 296px;
+    height: 233px;
+    border-radius: 5px;
+}
+.study-in-usa-text h1 {
+    color: var(--primary-halka-bg-color);
+    margin-top: 41px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 57px;
+}
+.study-in-usa-text{
+    display: flex;
+}
+
+element.style {
+    width: 296px;
+    height: 222px;
+    border-radius: 5px;
+}
+.all-study-country-list-big-card-content h1 {
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 26px;
+    color: #222222;
+    margin-top: 19px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.all-study-country-list-big-card-content p {
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 16px;
+    line-height: 23px;
+    color: #444444;
+    text-align: center;
+}
+.all-study-country-list-big-card-content h6 {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    color: #000000;
+}
+.common-heading h5 {
+    font-size: 20px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    color: #222222;
+    margin-bottom: 25px;
+    text-align: center;
+}
+/* footer section */
+.footer-icon-main {
+    width: 61px;
+    height: 44px;
+}
+.footer-icon-info{
+    width: 257px;
+}
+
+.study-abroad-heading h5 {
+    font-family: "poppins", sans-serif;
+    font-weight: 800;
+    margin-top: 21px;
+    text-align: center;
+    font-style: Medium;
+    font-size: 20px;
+    color: #222222;
+}
+.study-abroad-country-list{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.our-services h5 {
+    font-family: "poppins", sans-serif;
+    font-weight: 800;
+    font-style: Medium;
+    font-size: 20px;
+    margin-top: 17px;
+    color: #222222;
+    text-align: center;
+}
+.Service-list{
+    text-align: center;
+    margin-top: -33px;
+}
+
+.quick-links h5 {
+    font-family: "poppins", sans-serif;
+    font-weight: 800;
+    font-style: Medium;
+    font-size: 20px;
+    color: #222222;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quick-link-list{
+    text-align: center;
+    margin-top: -35px;
+}
+
+#final-footer {
+    background-color: var(--primary-halka-black);
+    padding: 1px;
+    margin-bottom: 0px;
+}
+#final-footer p {
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.select-area select{
+    color: #565555;
+    margin-left: 12px;
+    width: 230px;
+}
+.form-middle-technic{
+    margin-left: 33px;
+}
+/* footer section */
+
+/* last close */
+}
+
+@media (min-width: 576px) and (max-width: 767px) {  }
+@media (min-width: 768px) and (max-width: 991px){ }
+@media (min-width: 992px) and (max-width: 1199px){  }
+@media (min-width: 1200px) and (max-width: 1399px){ }
+@media (min-width: 1400px) and (max-width: 1600px){  }

@@ -98,6 +98,7 @@ span {
     display: flex;
 }
 
+
 .nav-item a:hover {
     color: var(--primary-orange-color) !important;
 }
@@ -179,7 +180,7 @@ span {
     font-size: 26px;
 }
 
-.question-box .question p {
+.question p {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -318,6 +319,11 @@ span {
 /* MAIN SECTION ER STUDY ABROAD PART DESIGN START */
 #study-abroad {
     background-color: #EFF3FF;
+}
+
+.abroad-image img {
+    width: 465px;
+    height: 879px;
 }
 
 .study-abroad-content {
@@ -507,7 +513,7 @@ span {
 .small-card-main {
     background: #FFFFFF4D;
     border: 1px solid #D9D9D9;
-    box-shadow: 0px 34px 54px 0px #01208E1A;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(124px);
     padding: 20px;
     border-radius: 5px;
@@ -564,6 +570,27 @@ span {
     margin-left: 14px;
 }
 
+.box-image {
+    width: 81px;
+    height: 53px;
+    margin-bottom: 30px;
+}
+.country-img-box h4{
+font-size: 10px;
+margin-left: 20px;
+}
+.box-text {
+    margin-top: 20px;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    color: #505050;
+    text-align: center;
+    /* margin-left: 20px; */
+    line-height: 100%;
+}
+
 /* ONLINE CONSULTATION PART END */
 
 /* WHAT STUDENT SAYS PART START */
@@ -574,7 +601,7 @@ span {
 .review-card-main {
     background: #FFFFFF;
     border: 1px solid #EDEDED;
-    box-shadow: 0px 14px 74px 0px #0000000F;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
     padding: 36px;
     border-radius: 5px;
 }
@@ -639,6 +666,7 @@ span {
     padding: 10px;
     margin-top: 20px;
 }
+
 .blog-heading h4 {
     font-family: "poppins", sans-serif;
     font-weight: 400;
@@ -714,22 +742,23 @@ span {
     border: none;
     margin-bottom: 30px;
 }
+
 /* our resent blog part end */
 
 
 /* next page study in usa start design */
-#next-page-study-in-usa {
-    height: 200px;
+#next-page-study-in-usa{
+    height: 256px;
     background-color: var(--primary-blue-color);
-    /* padding: 76px; */
 }
 
 .study-in-usa-text h1 {
     color: var(--primary-halka-bg-color);
-    margin-top: 70px;
-    margin-left: 150px;
+    margin-top: 100px;
+    margin-left: 74px;
     text-transform: uppercase;
 }
+
 /* next page study in usa end design */
 
 
@@ -745,6 +774,7 @@ span {
     font-size: 16px;
     color: #444444;
 }
+
 /* white space style end */
 
 /* Study in usa full country list design start */
@@ -791,7 +821,13 @@ hr {
 .all-country-list-in-one-fram li a:hover {
     color: #0075FF;
 }
+
 /* right site design start */
+.all-study-country-list-big-card img{
+    width: 820px;
+    height: 313px;
+    border-radius: 5px;
+}
 .all-study-country-list-big-card-content h1 {
     font-family: "poppins", sans-serif;
     font-weight: 700;
@@ -820,6 +856,7 @@ hr {
     line-height: 26px;
     color: #000000;
 }
+
 /* right site design end */
 /* Study in usa full country list design end */
 
@@ -857,7 +894,6 @@ hr {
     margin-bottom: 56px;
 
 }
-
 .footer-icon {
     padding: 14px;
     width: 40px;
@@ -894,6 +930,9 @@ hr {
     font-size: 20px;
     color: #222222;
 }
+.study-abroad-country-list{
+    margin-top: 3rem;
+}
 
 .study-abroad-country-list p {
     font-family: "poppins", sans-serif;
@@ -921,17 +960,19 @@ hr {
     color: #444444;
     margin-bottom: 14px;
 }
+
 /* our services */
 
 /* quick links */
-.quick-links h5{
+.quick-links h5 {
     font-family: "poppins", sans-serif;
     font-weight: 500;
     font-style: Medium;
     font-size: 20px;
     color: #222222;
 }
-.quick-link-list p{
+
+.quick-link-list p {
     font-family: "poppins", sans-serif;
     font-weight: 300;
     font-style: Medium;
@@ -939,6 +980,7 @@ hr {
     color: #444444;
     margin-bottom: 14px;
 }
+
 /* quick links */
 /* study-abroad-heading end */
 /* footer section design end */
